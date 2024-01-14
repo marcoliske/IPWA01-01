@@ -1,0 +1,224 @@
+body {
+  padding: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+a,
+p {
+  font-size: 16px !important;
+}
+h1 {
+  display: block;
+  font-size: 3.81em;
+}
+h2 {
+  display: block;
+  font-size: 3.05em;
+}
+h3 {
+  display: block;
+  font-size: 2.44em;
+}
+h4 {
+  display: block;
+  font-size: 1.95em;
+}
+h5 {
+  display: block;
+  font-size: 1.56em;
+}
+h6 {
+  display: block;
+  font-size: 1.25em;
+}
+
+.container {
+  width: 100%;
+  margin-top: 14px;
+}
+
+.content {
+  padding: 0px 24px;
+}
+
+.footer {
+  min-height: 100px;
+  width: 100%;
+  padding-top: 2rem;
+  text-align: center;
+  background-color: rgb(187, 225, 220);
+}
+
+.home-banner {
+  height: 200px;
+}
+
+.home-content {
+  margin-top: 50px;
+  padding-top: 14px;
+  border: solid 2px rgb(187, 225, 220);
+  border-radius: 5px;
+  min-height: 100px;
+}
+
+.register {
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: solid 2px rgb(187, 225, 220);
+  border-radius: 5px;
+  margin: 25px auto;
+}
+
+.register .ant-card {
+  background-color: transparent;
+}
+
+.register .ant-carousel {
+  width: 100%;
+}
+
+.register .ant-steps {
+  padding: 20px 0px;
+  width: 700px;
+}
+
+.ant-avatar {
+  border-radius: 5% !important;
+  width: 70px !important;
+  height: 70px !important;
+}
+
+.footer {
+  margin-top: 200px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media only screen and (max-width: 768px) {
+  body,
+  p,
+  .summary {
+    font-size: 130% !important;
+  }
+
+  a {
+    font-size: 110% !important;
+  }
+
+  .menu-mobile {
+    font-size: 135% !important;
+  }
+
+  label,
+  Button,
+  Input,
+  .ant-select-selection-item,
+  .ant-select-item,
+  .ant-cascader-menu-item-content,
+  .ant-select-selection-placeholder {
+    font-size: 130% !important;
+  }
+
+  .ant-select-selection-placeholder,
+  .ant-select-selection-item {
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .ant-input-number,
+  .ant-form-item {
+    width: 100% !important;
+    margin-right: 0px !important;
+  }
+
+  .register {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  Input,
+  .ant-select-selector,
+  .ant-select-item {
+    height: 48px !important;
+  }
+
+  Button.ant-btn {
+    height: 48px !important;
+    min-width: 100% !important;
+  }
+
+  .form-button {
+    margin-top: 14px !important;
+    display: flex !important;
+    justify-content: end !important;
+  }
+
+  .anticon-minus-circle svg {
+    height: 24px !important;
+    width: 24px !important;
+    margin-left: 10px;
+  }
+
+  .ant-space {
+    align-items: flex-start !important;
+  }
+
+  .menu-desktop {
+    display: none !important;
+  }
+
+  .menu-mobile {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(164, 164, 164);
+  }
+
+  .right-menu-item {
+    text-align: end;
+  }
+
+  .ant-space-vertical {
+    row-gap: 90px !important;
+  }
+
+  .footer {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .ant-card {
+    width: 365px;
+  }
+
+  .icon-button-xs {
+    display: none !important;
+  }
+
+  .menu-mobile {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .ant-card {
+    width: 280px;
+  }
+
+  .icon-button-xs {
+    display: none !important;
+  }
+
+  .menu-mobile {
+    display: none !important;
+  }
+}
